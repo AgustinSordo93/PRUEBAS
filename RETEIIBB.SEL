@@ -1,0 +1,5 @@
+           SELECT RETEIIBB ASSIGN TO RANDOM REAL-ARCHI217
+                           ORGANIZATION IS INDEXED
+                           ACCESS IS DYNAMIC
+                           RECORD KEY IS CLAVE-RETEIIBB
+                           STATUS IS ESTATUS.

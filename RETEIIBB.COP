@@ -1,0 +1,15 @@
+      ********
+       FD  RETEIIBB          LABEL  RECORD STANDARD.
+       01  REG-RETEIIBB. 
+           03 CLAVE-RETEIIBB. 
+              05 NRO-RET-RETEIIBB      PIC 9(8).
+           03 TIP-RETEIIBB             PIC XX      OCCURS 40 TIMES.
+           03 LET-RETEIIBB             PIC X       OCCURS 40 TIMES.
+           03 SUC-RETEIIBB             PIC 9(4)    OCCURS 40 TIMES.
+           03 NRO-RETEIIBB             PIC 9(8)    OCCURS 40 TIMES.
+           03 INT-RETEIIBB             PIC 9(8)    OCCURS 40 TIMES.
+           03 SUJ-RETEIIBB             PIC 9(9)V99 OCCURS 40 TIMES.
+           03 POR-RETEIIBB             PIC 9(3)V99 OCCURS 40 TIMES.
+           03 RET-RETEIIBB             PIC 9(9)V99 OCCURS 40 TIMES.
+
+           03 FILLER                   PIC X(555).
